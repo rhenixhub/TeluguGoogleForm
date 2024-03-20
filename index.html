@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phimed</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<!-- FormFacade embedded code -->
+
+<div id="ff-compose"></div>
+<script async defer src="https://formfacade.com/include/110181411899413486694/form/1FAIpQLSdh8zEefoLwJMLsgY619hscD_49SElI8fOCEbOufPkAxoQ8dQ/classic.js?div=ff-compose"></script>
+
+<script>
+var load = 0;
+
+document.getElementById('gform').onload = function(){
+    /*Execute on every reload on iFrame*/
+    load++;
+    if(load > 1){
+        /*Second reload is a submit*/
+        document.location = "https://wa.me/9392643148";
+    }
+}
+</script>
+
+</body>
+</html>
